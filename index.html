@@ -16,7 +16,7 @@
                 <a href="#about" id="nav-text" class="nav-item">ABOUT</a>
                 <a href="#myprojects" id="nav-text" class="nav-item">PROJECTS</a>
                 <a href="#blogarea" id="nav-text" class="nav-item">BLOG</a>
-                <a href="#contactTitle" id="nav-text" class="nav-item">CONTACT</a>
+                <a href="#contact-info" id="nav-text" class="nav-item">CONTACT</a>
                 <span class="nav-indicator"></span>
               </nav>
             
@@ -77,18 +77,27 @@
         </section>
     <script src="Resources/Javascript/Navbar.js"></script>
    </body>     
-   <footer>
-       <div class="form">
-       <p id="contactTitle">CONTACT US</p>
-        <div>
-            <p>Phone Number:071234</p>
-           <p>Email: JackDefroand@gmail.com</p>
-           <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed maximus fringilla molestie. 
-               Ut ultrices viverra magna, ut sollicitudin quam. Donec nec lectus vitae tellus pharetra aliquet et vel elit. 
-               Phasellus laoreet, diam in ullamcorper tempor, urna tellus dignissim ligula, sit amet feugiat est nulla vitae diam. 
-               Curabitur et leo purus. Donec in massa euismod mi fringilla vehicula.</p>
-        </div>
+   <footer class="contact-info" id="contact-info">
+       <h1 id="contact-title">CONTACT</h1>
+       <div class="email-form">
+           <div class="input-box" id="input-name">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name">
+           </div>
+           <div class="input-box" id="input-email">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email">
+           </div>
+           <div class="input-box" id="input-subject">
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+           </div>
+           <div class="input-box" id="input-message">
+                <textarea rows="10" cols="50" name="message" placeholder="Message">
+                </textarea>
+           </div>
        </div>
+
        <div>
            <p>Let's be social</p>
           <ul>
@@ -96,7 +105,6 @@
               <li>Instagram</li>
               <li>twitter</li>
           </ul>
-       
        </div>
     </footer>  
 </html>
