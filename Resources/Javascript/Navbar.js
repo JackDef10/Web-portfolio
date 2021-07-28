@@ -11,3 +11,4 @@ function scrollFunction() {
     document.querySelector(".nav").style.left = "32%";
   }
 }
+
