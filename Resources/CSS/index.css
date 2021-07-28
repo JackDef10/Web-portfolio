@@ -396,7 +396,82 @@ text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
     color:rgb(255, 255, 255);
-    padding: 40px;
+    padding: 40px 40px 15px;
     margin-top: 50px;
 }
 
+.email-form{
+    width: 50%;
+    z-index:1;
+    position:relative;
+    float:left;
+    height: 50%;
+    padding-left: 170px;
+}
+
+.inputBox{
+    background-color: seashell;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0px;
+    box-shadow: 0 0 15px 4px rgba(159, 162, 177, .5);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 2em;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#name{
+    position:relative;
+    float: left;
+
+}
+
+#email {
+    position:relative;
+    display:inline-block;
+}
+
+#subject{
+    width: 625px;
+}
+
+#message{
+    max-width: 625px;
+    min-width: 625px;
+    width: 625px;
+    max-height: 800px;
+}
+
+#submit{
+    padding: 15px;
+    width: 250px;
+    background-color:seashell;
+    color: rgb(89, 93, 110);
+    border-width: 5px;
+    border-color:seashell;
+    font-size: 20px;
+    border-radius: 2em;
+    border-style: solid;
+    font-weight: 700;
+    position: relative;
+    margin: 10px;
+    left:375px;
+    
+}
+
+#submit:hover{
+    color: seashell;
+    background-color: black;
+    border-color: seashell;
+    padding: 1em;
+    transition: 0.3s;
+}
+
+#contact-para{
+    color:seashell;
+    font-size: 20px;
+    line-height:1.75em;
+    padding-left: 40px;
+}
