@@ -209,3 +209,15 @@ margin-right:100px}
     background-color:rgba(0, 0, 0, 1);
     padding:0.5em;
 }
+
+.pic-container {
+    height: 1200px;
+    width: 1850px; 
+    background-color:black;
+    z-index:inherit;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 250px;
+
+}
