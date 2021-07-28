@@ -12,17 +12,17 @@
             
         <div id="container">
             <nav class="nav">
-                <a href="index.html" id="nav-text" class="nav-item">HOME</a>
-                <a href="./HTML/about.html" id="nav-text" class="nav-item">ABOUT</a>
-                <a href="./HTML/projects.html" id="nav-text" class="nav-item">PROJECTS</a>
+                <a href="#container" id="nav-text" class="nav-item">HOME</a>
+                <a href="#about" id="nav-text" class="nav-item">ABOUT</a>
+                <a href="#myprojects" id="nav-text" class="nav-item">PROJECTS</a>
                 <a href="./HTML/blogs.html" id="nav-text" class="nav-item">BLOG</a>
-                <a href="./HTML/contact.html" id="nav-text" class="nav-item">CONTACT</a>
+                <a href="#contactTitle" id="nav-text" class="nav-item">CONTACT</a>
                 <span class="nav-indicator"></span>
               </nav>
             
                 <h1 class="Maintitle">JACK<br>DEFROAND<br>WEB DEVELOPER<p id="subhead">LOOKING FOR INSPIRATION?</p></h1>
                 <div class= "centerBtn">
-                    <div id= "projectsBtn" class="Mainbuttons">PROJECTS</div>
+                    <a href="#myprojects"><div id= "projectsBtn" class="Mainbuttons">PROJECTS</div></a>
                     <div id= "contactBtn" class="Mainbuttons">CONTACT</div> 
                 </div>
             
@@ -46,11 +46,13 @@
           </div>
         </section>
         <section class= "myprojects">
-            <div class= "pic-container">
-                <img>
-                <img>
-                <img>
-                <img>
+            <div id="myprojects" class= "pic-container">
+                <div class= "project-list">
+                    <img src="Resources/Images/matrix.jpg" alt="coding" class="image1">
+                    <div class= "overlay">
+                        <div class="project-text">Python Development</div>
+                    </div>
+                </div>
             </div>
         </section>
     <script src="Resources/Javascript/Navbar.js"></script>
