@@ -11,6 +11,7 @@
     height: 325px;
     line-height: 1.2em;
     Text-shadow: 0.07em 0.07em rgba(46, 46, 46, 0.5);
+    
 }
 
 
@@ -113,7 +114,7 @@ body {
 
 
 #container {
-    background-image: url("../Images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg");
+    background-image: url("../Images/fotis-fotopoulos-DuHKoV44prg-unsplash1.jpg");
     margin: 0px auto;
     background-color:158, 158, 158,0.25;
     background-position: center;
@@ -127,6 +128,7 @@ body {
     height: 100%
     
     }
+
 
 
 
@@ -180,6 +182,7 @@ margin-right:100px}
 
 }
 
+/* Home buttons section */
 
 .Mainbuttons {
     padding: 10px;
@@ -199,6 +202,7 @@ margin-right:100px}
     margin-left: 40px;
     border-radius:1em;
     transition:0.3s;
+    animation: 1s ease-out 0s 1 slideAndFadeFromBottom;
 }
 
 .centerBtn{
@@ -210,6 +214,18 @@ margin-right:100px}
     background-color:rgb(22, 22, 22);
     padding:0.5em;
 }
+
+@keyframes slideAndFadeFromBottom {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+/* projects section */
 
 .pic-container {
     height: 1100px;
